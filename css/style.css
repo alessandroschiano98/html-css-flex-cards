@@ -29,20 +29,24 @@
 
 .griglia {
     padding: 15px;
-    display: flex;
     width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .col {
+    width: 400px;
+    height: 100px;
+    background-color: black;
     font-family: "Fredoka", serif;
     color: white;
     display: flex;
-    background-color: black;
+    flex-wrap: wrap;
 
-
+    
 }
-
-
 
 
 .Foto {
