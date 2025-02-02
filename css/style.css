@@ -29,7 +29,6 @@
 
 .griglia {
     padding: 15px;
-    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,6 +36,7 @@
 }
 
 .col {
+    width: calc(100% / 3);
     width: 400px;
     height: 100px;
     background-color: black;
@@ -57,7 +57,6 @@
 
 .Nome {
     font-size: 18px;
-    display: flex;
     margin: 2px auto;
 
 }
