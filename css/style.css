@@ -35,11 +35,43 @@
     justify-content: space-around;
     flex-direction: row;
     margin: 25px;
+    
 }
 
 .col {
     background-color: black;
     width: calc(100% / 4);
-    padding: 40px 25px 45px;
+    width: 350px;
     margin: 15px;
+    font-family: "Fredoka", serif;
+    color: white;
+    display: flex;
+}
+
+.boxMarco  {
+    padding: 5px;
+    margin: 8px auto;
+}
+
+.foto1 {
+    width: 100px;
+}
+
+.Marco {
+    font-size: 18px;
+    display: flex;
+    margin: 2px auto;
+
+}
+
+.Designer {
+    font-weight: 1;
+    font-size: 15px;
+    margin: 2px auto; 
+}
+
+.email {
+    color: lightblue;
+    text-decoration: none;
+    margin: 2px auto;
 }
