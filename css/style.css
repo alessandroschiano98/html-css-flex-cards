@@ -8,7 +8,6 @@
     width: 80%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    justify-content: center;
 }
 
 .title1 {
@@ -23,27 +22,28 @@
 }
 
 .textundertitle {
-    display: flex;
     text-align: center;
     margin: 25px auto;
 
 }
 
 .griglia {
+    padding: 15px;
     display: flex;
-    justify-content: space-between;
-
-    
+    width: calc(100% / 3);
 }
 
 .col {
-    background-color: black;
-    width: calc(100% / 4);
-    width: 350px;
     font-family: "Fredoka", serif;
     color: white;
     display: flex;
+    background-color: black;
+
+
 }
+
+
+
 
 .Foto {
     width: 100px;
@@ -71,5 +71,6 @@
 }
 
 .box {
+    padding: 10px 25px;
     
 }
