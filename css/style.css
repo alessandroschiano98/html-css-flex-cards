@@ -16,7 +16,7 @@
     font-weight: 700;
     font-size: 40px;
     color: rgb(247, 66, 141);
-    padding: 25px;
+    margin: 20px auto;
     text-align: center;
 
 
@@ -25,16 +25,14 @@
 .textundertitle {
     display: flex;
     text-align: center;
-    margin: 10px;
+    margin: 25px auto;
 
 }
 
 .griglia {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 25px;
+    justify-content: space-between;
+
     
 }
 
@@ -42,36 +40,36 @@
     background-color: black;
     width: calc(100% / 4);
     width: 350px;
-    margin: 15px;
     font-family: "Fredoka", serif;
     color: white;
     display: flex;
 }
 
-.boxMarco  {
-    padding: 5px;
-    margin: 8px auto;
-}
-
-.foto1 {
+.Foto {
     width: 100px;
+    height: 100px;
 }
 
-.Marco {
+
+.Nome {
     font-size: 18px;
     display: flex;
     margin: 2px auto;
 
 }
 
-.Designer {
+.Ruolo {
     font-weight: 1;
     font-size: 15px;
     margin: 2px auto; 
 }
 
-.email {
+.Email {
     color: lightblue;
     text-decoration: none;
     margin: 2px auto;
+}
+
+.box {
+    
 }
