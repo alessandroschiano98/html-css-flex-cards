@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenitore1 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.title1 {
+    font-family: "Fredoka", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(247, 66, 141);
+    padding: 25px;
+    text-align: center;
+
+
+}
+
+.textundertitle {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.col {
+    background-color: black;
+    width: calc(100% / 4);
+    padding: 40px 25px 45px;
+    margin: 15px;
+}
