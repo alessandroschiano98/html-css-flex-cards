@@ -36,18 +36,20 @@
 }
 
 .colonna {
-    width: calc(100% / 4);
+    width: calc(100 /3);
     background-color: black;
     font-family: "Fredoka", serif;
     color: white;
-    margin: 15px 35px 5px 3px;
+    margin: 5px 0px 15px ;
     display: flex;
 
     
 }
 
 .box {
-    text-align: left;
+    width: 250px;
+    margin: 1px 15px;
+    background-color: black;
 }
 
 
@@ -58,18 +60,20 @@
 
 
 .Nome {
-    font-size: 18px;
-    margin: 3px auto;
+    font-size: 20px;
+    margin: 8px auto;
 
 }
 
 .Ruolo {
     font-weight: 1;
-    font-size: 15px;
+    font-size: 17px;
+    margin: 8px auto;
 }
 
 .Email {
     color: lightblue;
     text-decoration: none;
+    margin: 8px auto;
 }
 
