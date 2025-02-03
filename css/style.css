@@ -29,24 +29,25 @@
 
 .griglia {
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+    
 }
 
 .colonna {
-    width: calc(100% / 3);
-    width: 400px;
-    height: 100px;
+    width: calc(100% / 4);
     background-color: black;
     font-family: "Fredoka", serif;
     color: white;
+    margin: 15px 35px 5px 3px;
     display: flex;
-    flex-wrap:wrap;
-    margin: 15px auto 30px 10px;
 
     
+}
+
+.box {
+    text-align: left;
 }
 
 
@@ -58,24 +59,17 @@
 
 .Nome {
     font-size: 18px;
-    margin: 2px auto;
+    margin: 3px auto;
 
 }
 
 .Ruolo {
     font-weight: 1;
     font-size: 15px;
-    margin: 2px auto; 
 }
 
 .Email {
     color: lightblue;
     text-decoration: none;
-    margin: 2px auto;
 }
 
-.box {
-    padding: 10px 25px;
-    text-align: left;
-    
-}
