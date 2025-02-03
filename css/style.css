@@ -32,7 +32,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
-    
+
 }
 
 .colonna {
@@ -40,11 +40,11 @@
     background-color: black;
     font-family: "Fredoka", serif;
     color: white;
-    margin: 15px 0px 15px;
+    margin: 25px 0px 15px;
     display: flex;
     box-shadow: 5px 5px 5px rgb(219, 219, 219);
 
-    
+
 }
 
 .box {
@@ -54,28 +54,30 @@
 }
 
 
-.Foto {
+.foto {
     width: 100px;
     height: 100px;
 }
 
 
-.Nome {
+.nome {
     font-size: 20px;
     margin: 0px auto;
 
 
 }
 
-.Ruolo {
+.ruolo {
     font-weight: 1;
     font-size: 17px;
     margin: 5px auto;
 }
 
-.Email {
+.email {
     color: rgb(71, 181, 218);
     text-decoration: none;
     margin: 5px auto;
 }
 
+/* DISPOSITIVI */
+@media screen {}
