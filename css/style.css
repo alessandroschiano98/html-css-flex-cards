@@ -29,14 +29,14 @@
 
 .griglia {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 
     
 }
 
 .colonna {
-    width: calc(100 /3);
+    width: calc(100 / 3);
     background-color: black;
     font-family: "Fredoka", serif;
     color: white;
@@ -72,7 +72,7 @@
 }
 
 .Email {
-    color: lightblue;
+    color: rgb(71, 181, 218);
     text-decoration: none;
     margin: 8px auto;
 }
