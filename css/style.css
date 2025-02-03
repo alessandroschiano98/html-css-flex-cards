@@ -28,14 +28,14 @@
 }
 
 .griglia {
-    padding: 15px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    
+    
 
 }
 
-.col {
+.colonna {
     width: calc(100% / 3);
     width: 400px;
     height: 100px;
@@ -43,7 +43,8 @@
     font-family: "Fredoka", serif;
     color: white;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    margin: 15px auto 30px 10px;
 
     
 }
@@ -75,5 +76,6 @@
 
 .box {
     padding: 10px 25px;
+    text-align: left;
     
 }
