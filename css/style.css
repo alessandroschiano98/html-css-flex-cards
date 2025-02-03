@@ -40,15 +40,16 @@
     background-color: black;
     font-family: "Fredoka", serif;
     color: white;
-    margin: 5px 0px 15px ;
+    margin: 15px 0px 15px;
     display: flex;
+    box-shadow: 5px 5px 5px rgb(219, 219, 219);
 
     
 }
 
 .box {
-    width: 250px;
-    margin: 1px 15px;
+    width: 260px;
+    margin: 15px 5px auto 25px;
     background-color: black;
 }
 
@@ -61,19 +62,20 @@
 
 .Nome {
     font-size: 20px;
-    margin: 8px auto;
+    margin: 0px auto;
+
 
 }
 
 .Ruolo {
     font-weight: 1;
     font-size: 17px;
-    margin: 8px auto;
+    margin: 5px auto;
 }
 
 .Email {
     color: rgb(71, 181, 218);
     text-decoration: none;
-    margin: 8px auto;
+    margin: 5px auto;
 }
 
