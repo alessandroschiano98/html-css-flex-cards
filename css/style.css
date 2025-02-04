@@ -80,4 +80,35 @@
 }
 
 /* DISPOSITIVI */
-@media screen {}
+/* SMARTPHONE  */
+@media screen and (max-width: 700px) {
+
+    .contenitore1 {
+        justify-content: center;
+
+    }
+
+    .griglia {
+        justify-content: center;
+
+
+    }
+    
+}
+
+/* TABLET  */
+@media screen and (max-width: 1024px) {
+
+    .contenitore1 {
+        justify-content: center;
+        
+
+    }
+
+    .griglia {
+        justify-content: center;
+    
+
+
+    }
+}
